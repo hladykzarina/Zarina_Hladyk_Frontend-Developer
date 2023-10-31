@@ -1,5 +1,5 @@
 ul {
-  list-style: none;
+  list-style: circle;
 }
 
 a {
@@ -12,4 +12,79 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Sometype Mono', monospace;
+
+  margin-top: 16px;
+  margin-left: 18px;
+  margin-right: 18px;
+  background-color: #f3eef7;
+}
+
+/* Left side */
+.left-inf {
+  background-color: #ceb5de;
+  border: 1px solid #9328d5;
+  width: 35%;
+}
+
+.my-name {
+  position: absolute;
+  left: 50%;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.6;
+}
+
+.name {
+  margin: 0;
+  font-size: 28px;
+}
+
+.name-status {
+  margin: 0;
+}
+
+.information {
+  margin-left: 0;
+  width: 200px;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.inf-block {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
+
+.contacts {
+  margin: 0;
+  margin-left: 16px;
+}
+
+.skills-list {
+  margin: 0;
+}
+
+.photo {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+/* Right side */
+
+.main-information {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.main-inf-item {
+  margin-right: 5%;
+  line-height: 2;
 }
