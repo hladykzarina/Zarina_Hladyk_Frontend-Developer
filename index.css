@@ -6,7 +6,19 @@ a {
   text-decoration: none;
 }
 
+.link {
+  color: black;
+  cursor: pointer;
+}
+
+.link:active,
+.link:hover {
+  color: #4c0877;
+  font-size: large;
+}
+
 body {
+  font-family: 'Manrope', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
@@ -29,13 +41,33 @@ body {
   align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .left-inf {
+    background-color: #ceb5de;
+    border: 1px solid #9328d5;
+    width: 35%;
+  }
+}
+
 .name {
   margin: 0;
-  margin-top: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .name {
+    font-size: 26px;
+  }
+}
+
+.my-name {
+  display: flex;
+  flex-direction: column;
 }
 
 .name-status {
@@ -49,10 +81,22 @@ body {
   flex-direction: column;
 }
 
+@media only screen and (min-width: 768px) {
+  .information {
+    margin-bottom: 10px;
+  }
+}
+
 .div-photo {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .div-photo {
+    margin-top: 16px;
+  }
 }
 
 .photo {
@@ -67,10 +111,16 @@ body {
 .contacts {
   font-size: 18px;
   margin: 0;
-  margin-top: 8px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts {
+    font-size: 20px;
+  }
 }
 
 .skills-list {
@@ -79,17 +129,40 @@ body {
   margin: 0;
 }
 
+@media only screen and (min-width: 768px) {
+  .skills-list {
+    font-size: 17px;
+  }
+}
+
 .main-information {
   margin-left: 10px;
   margin-bottom: 18px;
   line-height: 1.9;
 }
 
+@media only screen and (min-width: 768px) {
+  .main-information {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 37%;
+    margin-top: 2%;
+  }
+}
+
 .main-inf-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 22px;
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-inf-title {
+    justify-content: start;
+    align-items: start;
+  }
 }
 
 .education-title {
@@ -98,79 +171,47 @@ body {
   align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .education-title {
+    justify-content: start;
+    align-items: start;
+  }
+}
+
 .main-inf-text {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-/* .left-inf {
-  display: flex;
-} 
+@media only screen and (min-width: 768px) {
+  .main-inf-text {
+    align-items: start;
+  }
+}
 
-.left-inf {
-  background-color: #ceb5de;
-  border: 1px solid #9328d5;
-  width: 35%;
-} */
+.lang {
+  display: none;
+}
 
-/*.my-name {
-  position: absolute;
+.mob {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 768px) {
-  .my-name {
-    left: 50%;
-    top: 12px;
-    justify-content: start;
-    align-items: start;
-    flex-direction: row;
+  .lang {
     display: flex;
     flex-direction: column;
-    line-height: 1.6;
+    align-items: start;
   }
-} 
-
-.my-name {
-  position: absolute;
-  left: 50%;
-  top: 12px;
-  display: flex;
-  flex-direction: column;
-
-  line-height: 1.6;
+  .mob {
+    display: none;
+  }
 }
 
-.name {
-  margin: 0;
-  font-size: 28px;
-}*/
+/*
 
-/*.mobile-contacts {
-  position: absolute;
-  right: 0;
-  top: 18%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-} 
 
-.name-status {
-  margin: 0;
-  font-size: 20px;
-}
-
-.information {
-  margin-left: 0;
-  width: 200px;
-  line-height: 2;
-  font-size: 14px;
-}
 
 .inf-block {
   display: flex;
@@ -219,13 +260,6 @@ body {
 
 /* Right side 
 
-.main-information {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-left: 40%;
-  margin-top: 10%;
-}
 
 .main-inf-item {
   line-height: 1.7;
