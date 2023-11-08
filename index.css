@@ -17,19 +17,102 @@ body {
   margin-left: 18px;
   margin-right: 18px;
   background-color: #f3eef7;
+  margin: 0;
 }
 
 /* Left side */
 
+.left-inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 0;
+  margin-top: 6px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-status {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 240px;
+}
+
+.inf-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-list {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.main-information {
+  margin-left: 10px;
+  margin-bottom: 18px;
+  line-height: 1.9;
+}
+
+.main-inf-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.education-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-inf-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 /* .left-inf {
   display: flex;
-} */
+} 
 
 .left-inf {
   background-color: #ceb5de;
   border: 1px solid #9328d5;
   width: 35%;
-}
+} */
 
 /*.my-name {
   position: absolute;
@@ -51,7 +134,7 @@ body {
     flex-direction: column;
     line-height: 1.6;
   }
-} */
+} 
 
 .my-name {
   position: absolute;
@@ -66,7 +149,7 @@ body {
 .name {
   margin: 0;
   font-size: 28px;
-}
+}*/
 
 /*.mobile-contacts {
   position: absolute;
@@ -75,7 +158,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-} */
+} 
 
 .name-status {
   margin: 0;
@@ -96,26 +179,28 @@ body {
   justify-content: flex-start;
   margin-bottom: 18px;
 }
+*/
 
 /*.contacts {
   font-size: 14px;
   margin-left: 18%;
-} */
+} 
 
 .contacts {
   margin: 0;
   margin-left: 16px;
 }
+*/
 
 /*.skills-list {
   margin: 0;
   font-size: 12px;
   line-height: 1.7;
   list-style: none;
-} */
+} 
 .skills-list {
   margin: 0;
-}
+} */
 
 /*.photo {
   position: absolute;
@@ -123,15 +208,16 @@ body {
   left: 10px;
   width: 170px;
 }
-*/
+
 .photo {
   margin-top: 20px;
   margin-left: 10px;
   display: flex;
   justify-content: center;
 }
+*/
 
-/* Right side */
+/* Right side 
 
 .main-information {
   position: absolute;
@@ -149,3 +235,5 @@ body {
 .lang {
   margin-bottom: 6px;
 }
+
+*/
