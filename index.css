@@ -44,7 +44,6 @@ body {
 @media only screen and (min-width: 768px) {
   .left-inf {
     background-color: #ceb5de;
-    border: 1px solid #9328d5;
     width: 35%;
   }
 }
@@ -199,7 +198,7 @@ body {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .lang {
     display: flex;
     flex-direction: column;
@@ -209,66 +208,3 @@ body {
     display: none;
   }
 }
-
-/*
-
-
-
-.inf-block {
-  display: flex;
-
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-bottom: 18px;
-}
-*/
-
-/*.contacts {
-  font-size: 14px;
-  margin-left: 18%;
-} 
-
-.contacts {
-  margin: 0;
-  margin-left: 16px;
-}
-*/
-
-/*.skills-list {
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.7;
-  list-style: none;
-} 
-.skills-list {
-  margin: 0;
-} */
-
-/*.photo {
-  position: absolute;
-  top: 18%;
-  left: 10px;
-  width: 170px;
-}
-
-.photo {
-  margin-top: 20px;
-  margin-left: 10px;
-  display: flex;
-  justify-content: center;
-}
-*/
-
-/* Right side 
-
-
-.main-inf-item {
-  line-height: 1.7;
-  margin: 0;
-}
-
-.lang {
-  margin-bottom: 6px;
-}
-
-*/
