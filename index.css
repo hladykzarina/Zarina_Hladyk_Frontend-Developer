@@ -99,7 +99,7 @@ body {
 }
 
 .photo {
-  width: 240px;
+  width: 210px;
 }
 
 .inf-block {
@@ -191,20 +191,4 @@ body {
 
 .lang {
   display: none;
-}
-
-.mob {
-  display: flex;
-  flex-direction: column;
-}
-
-@media only screen and (min-width: 1200px) {
-  .lang {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .mob {
-    display: none;
-  }
 }
