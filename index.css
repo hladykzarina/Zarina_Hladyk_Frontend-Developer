@@ -9,6 +9,7 @@ a {
 .link {
   color: black;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .link:active,
